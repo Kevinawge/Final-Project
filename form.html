@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="form.css">
+    <title>Project</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#default" class="logo"> Electrolux</a>
+        <div class="header-right">
+        <a class="active" href="form.html">Application</a>
+        <a href="index2.html">About</a>
+        <a href="index.html">Home</a>
+    </div>
+    </div>
+</body>
+
+<div class="container">
+    <form id="survey-form" method="GET">
+        <div class="labels">
+            <label id="name-label" for="name">* Full Name</label></div>
+        <div class="input-tab">
+            <input class="input-field" type="text" id="name" name="name" placeholder="Enter your name" required autofocus></div>
+        <div class="labels">
+            <label id="email-label" for="email">* Email</label></div>
+        <div class="input-tab">
+            <input class="input-field" type="email" id="email" name="email" placeholder="email@email.com" required></div>
+        <div class="labels">
+            <label id="number-label" for="number">* Adress</label></div>
+        <div class="input-tab">
+            <input class="input-field" type="text" id="adress" name="number" placeholder="123 street name" required></div>
+        <div class="labels">
+            <label for="dropdown">* How did you hear from us?</label></div>
+        <div class="input-tab">
+            <select id="dropdown" name="site">
+                <option disabled value selected>Select an option</option>
+                <option value="Magazine">Magazine</option>
+                <option value="Tv">Tv</option>
+                <option value="Friend">Friend</option>
+                <option value="Internet">Internet</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+        <div class="labels">
+            <label for="dropdown">* Position</label></div>
+        <div class="input-tab">
+            <select id="dropdown" name="seasons">
+                <option disabled value selected>Select an option</option>
+                <option value="Design">Industrial Design</option>
+                <option value="Design">Digitial Design</option>
+                <option value="Design">Communication Design</option>
+                <option value="Research">Research</option>
+            </select>
+        </div>
+        <div class="labels">
+            <label>Level of Education<br>(Check all that apply):</label></div>
+        <div class="input-tab">
+            <input type="checkbox" name="Highschool Diploma" value="Highschool Diploma">Highschool Diploma<br>
+            <input type="checkbox" name="GED" value="GED">GED<br>
+            <input type="checkbox" name="Bachelor Degree" value="Bachelor Degree">Bachelor Degree<br>
+            <input type="checkbox" name="Master Degree" value="Master Degree">Master Degree<br>
+            <input type="checkbox" name="other" value="other">Other<br>
+        </div>        
+        <div class="labels">
+            <label for="comments">Any questions?</label></div>
+        <div class="input-tab">
+            <textarea class="input-field" rows="10" cols="40" placeholder="Text"></textarea></div>
+        <div class="labels">
+            <label for="comments">Resume</label></div>
+            <form action="/action_page.php">
+                <input type="file" id="myFile" name="filename">
+            </form>
+        <div class="btn">
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+<footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <h1>Redes Sociais</h1>
+            <p>It's all about your dreams.</p>
+            <div id="footer_social_media">
+                <a href="#" class="footer-link" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="footer-link" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#" class="footer-link" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <ul class="footer-list">
+            <li>
+                <h3>Blog</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Tech</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Adventures</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Music</a>
+            </li>
+        </ul>
+        <ul class="footer-list">
+            <li>
+                <h3>Products</h3>
+            </li>
+            <li>
+                <a href="#" class="footer-link">App</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Desktop</a>
+            </li>
+            <li>
+                <a href="#" class="footer-link">Cloud</a>
+            </li>
+        </ul>
+        <div id="footer_subscribe">
+            <h3>Subscribe</h3>
+            <p>
+                Enter your e-mail to get notified about
+                our news solutions
+            </p>
+            <div id="input_group">
+                <input type="email" id="email">
+                <button>
+                    <i class="fa-regular fa-envelope"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="footer_copyright">
+        &#169
+        Comp126
+    </div>
+</footer>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
